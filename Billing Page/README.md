@@ -1,1 +1,1 @@
-Billing page with Credit Card form
+Responsive Billing Page With Credit Card Form
