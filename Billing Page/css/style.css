@@ -576,7 +576,7 @@
 .container__registration {
     position: absolute;
     align-self: center;
-    background: rgb(83,115,252, 0.8);
+    background: rgba(83,115,252, 0.8);
     width: 100%;
     height: 100vh;
     display: flex;
