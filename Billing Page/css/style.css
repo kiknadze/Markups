@@ -581,7 +581,7 @@
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .form_tab {
@@ -958,8 +958,8 @@
 
     #burger[type=checkbox] + label  {
         position: fixed;
-        top: 5px;
-        right: 5px;
+        top: 20px;
+        right: 20px;
         height: 20px;
         width: 20px; 
         z-index: 1;
@@ -968,7 +968,7 @@
     .burger__line {
         position: absolute;
         width: 100%;
-        height: 2px;
+        height: 3px;
         top: 50%;
         margin-top: -1px;
         left: 0;
