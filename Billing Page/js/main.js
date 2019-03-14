@@ -37,12 +37,14 @@ addNewCard.addEventListener('click', () => {
     formTAB.style.display = 'flex';
     document.body.scrollTop = document.documentElement.scrollTop = 0;
     document.querySelector('.container').style.maxHeight = '100vh';
+    document.querySelector('.container').style.overflow = 'hidden';
 });
 
 //close button 
 closeBTN.addEventListener('click', () => {
     formTAB.className += ' flipout';
     document.querySelector('.container').style.maxHeight = 'initial';
+    ocument.querySelector('.container').style.overflow = 'initial';
 });
 
 //card number format
